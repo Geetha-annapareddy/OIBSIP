@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>A.P.J.Abdul Kalam</h1>
+    <div class="row">
+        <div class="mainimg"><img  height=300px width=300px src="images/abdul.png"> </div>
+        <div class="intro"><p>A.P.J. Abdul Kalam, in full Avul Pakir Jainulabdeen Abdul Kalam, (born October 15, 1931, Rameswaram), Indian scientist and politician who played a leading role in the development of India's missile and nuclear weapons programs.</p><button class="btn1" onclick="func()">Read More</button></div>
+    </div>
+    <div id="content" >
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('earlylife')">
+              EarlyLife
+            </p>
+            <p class="tab-links" onclick="opentab('education')">
+              Education
+            </p>
+            <p class="tab-links" onclick="opentab('about')">
+              About
+            </p>
+  
+          </div>
+        <div class="earlylife tab-contents active-tab" id="earlylife">
+            <h1>Early Life</h1>
+            <ul>
+                <li>Full name:Avul Pakir Jainulabdeen Abdul Kalam</li>
+            <li>Born in Rameswaram of Madras Presidency on <b>15th October 1931</b> </li>
+            <li>Dr. A P J Abdul Kalam was born to a poor Tamil Muslim family</li>
+            <li>Kalam’s father, Jainulabudeen, was a boat owner and imam at a local mosque. His forefathers were wealthy, but due to business failures, the former President’s fortunes were lost, and he was forced to work odd jobs. In his family, Kalam was the youngest of four brothers and one sister. To supplement his father’s income, Kalam used to distribute newspapers after school.</li>
+            </ul>
+            
+        </div>
+    <div class="Education tab-contents" id="education">
+        <h2>Education</h2>
+        <p><b>Early Schooling:</b>Rameshwaram Elementary School</p>
+        <p><b>Secondary Schooling:</b>Schwartz Higher Secondary School</p>
+        <p><b>Undergraduate:</b>Saint Joseph’s College</p>
+        <p><b>Postgraduate:</b>Madras Institute of Technology</p>
+    </div>
+    <div class="about tab-contents" id="about">
+        <h2>About Kalam</h2>
+        <li>Abdul Kalam had 7 doctorates, which may surprise you. During his lifetime, former President APJ Abdul Kalam, received honorary doctorates from 40 national and international universities.</li>
+        <li>He served as the <b>11th President of India</b> from 2002 to 2007.</li>
+        <li>Kalam earned a degree in aeronautical engineering from the Madras Institute of Technology and in1958 joined the Defence Research and Development Organisation (DRDO).</li>
+        <li>In 1969, he moved to the Indian Space Research Organisation, where he was project director of the SLV-III, the first satellite launch vehicle that was both designed and produced in India.</li>
+        <li>He was in charge of the Agni and Prithvi missiles’ development and deployment. It is for this reason that he is known as <b>India’s Missile Man</b>. He was a firm believer in the concept of power commanding respect, and he believed that other nations would only respect India if we were powerful.</li>
+        <li> He also played a pivotal organisational, technical, and political role in India's Pokhran-II nuclear tests in 1998, the first since the original nuclear test by India in 1974.</li>
+        <li>In 2013, he was the recipient of the <b>Von Braun Award</b> from the National Space Society "to recognize excellence in the management and leadership of a space-related project".</li>
+        <li>Dr. Kalam has been awarded the <b>Padma Bhushan (1981)</b> and <b>Padma Vibhushan (1990)</b> civilian awards, as well as the highest civilian honour, <b>the Bharat Ratna (1997)</b>.</li>
+    <li>While delivering a lecture at the Indian Institute of Management Shillong, Kalam collapsed and died from an apparent cardiac arrest on <b>27 July 2015</b>, aged 83.</li>
+    <li>Wheeler Island, a national missile test site in Odisha, was renamed <b>Kalam Island</b> in September 2015.</li>    
+    <li>A prominent road in New Delhi was renamed from Aurangzeb Road to <b>Dr APJ Abdul Kalam Road</b> in August 2015.</li>
+    <li>APJ Abdul Kalam’s autobiography, <b>‘Wings of Fire,’</b> was first published in English and has since been translated and published in 13 languages.</li>
+</div>
+   <div class="gallery">
+    <h2>Gallery</h2>
+    <img class="img"src="images/img1.jpg">
+    <img class="img" src="images/img2.jpg">
+    <img  class="img"src="images/img3.jpg">
+    <img  class="img"src="images/img4.jpg">
+   </div> 
+   <div class="extra">
+    <h5>""It is very easy to defeat someone,but very difficult to win someone ""</h5>
+        <p>For more references:<a href="https://unacademy.com/content/general-awareness/apj-abdul-kalam-biography/">Click</a></p>
+    
+    </div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>

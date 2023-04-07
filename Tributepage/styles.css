@@ -1,0 +1,107 @@
+h1{
+    text-align: center;
+    background-color: aquamarine;
+}
+.row{
+    margin:auto;
+    padding:20px;
+}
+.mainimg{
+    padding:50px 120px;
+    display:inline-block;
+    width:500px;
+}
+.intro{
+    padding:100px 50px;
+    display:inline-block;
+    width:500px;
+}
+.btn1{
+    margin:auto;
+    border-radius: 20px;
+    background-color: aquamarine;
+    padding:10px;
+}
+.btn1:hover{
+    background-color:lightseagreen;
+    color:white;
+}
+#content{
+    margin:auto;
+    display:none;
+    width:900px;
+}
+.earlylife{
+    background-color: aquamarine;
+    padding:50px;
+    margin:30px;
+}
+.about{
+    background-color: aquamarine;
+    padding:50px;
+    margin:30px;
+}
+.Education{
+    background-color: aquamarine;
+    padding:50px;
+    margin:30px;
+}
+.extra{
+    margin:30px;
+    text-align: center;
+}
+.gallery{
+    margin:30px;
+}
+a{
+    text-align: center;
+}
+h5{
+
+}
+h2{
+    text-align: center;
+}
+.img{
+    height:200px;
+    width:200px;
+}
+.tab-titles{
+    display:flex;
+    margin:20px 0 40px;
+  }
+  .tab-links{
+    margin-right:50px;
+    font-size:18px;
+    font-weight:500;
+    cursor:pointer;
+    position:relative;
+  
+  }
+  .tab-links::after{
+    content:'';
+    width:0;
+    height:3px;
+    position: absolute;
+    left:0;
+    background:aquamarine;
+    bottom:-8px;
+    transition:0.5s ;
+  }
+  .tab-links.active-link::after{
+    width:50%;
+  }
+  .tab-contents{
+    display:none;
+  }
+  .active-tab{
+  display:block;
+  }
+@media screen and (max-width:1000px){
+#content{
+width:500px;
+margin:auto;
+}
+}
+  
+    
