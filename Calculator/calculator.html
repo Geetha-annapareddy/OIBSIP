@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <div class="calc">
+        <input id="inarea" class="inarea" placeholder="Enter Expression" />
+        <input id="outarea" class="outarea" />
+        <div class="r1">
+            <button  value='c' class="clear" onclick="clr()">clr</button>
+            <button  value='(' onclick="func('(')">(</button>
+            <button  value=')' onclick="func(')')">)</button>
+
+        </div>
+        <div class="r2">
+            <button value='7' onclick="func('7')">7</button>
+            <button value='8' onclick="func('8')">8</button>
+            <button value='9' onclick="func('9')">9</button>
+            <button value='-' onclick="func('-')">-</button>
+        </div>
+        <div class="r3">
+            <button  value='4' onclick="func('4')">4</button>
+            <button  value='5' onclick="func('5')">5</button>
+            <button  value='6' onclick="func('6')">6</button>
+            <button  value='*' onclick="func('*')">*</button>
+        </div>
+        <div class="r4">
+            <button  value='1' onclick="func('1')">1</button>
+            <button  value='2' onclick="func('2')">2</button>
+            <button  value='3' onclick="func('3')">3</button>
+            <button  value='/' onclick="func('/')">/</button>
+        </div>
+        <div class="r5">
+            
+            <button  value='.' onclick="func('.')">.</button>
+            <button  value='0' onclick="func('0')">0</button>
+            <button  value='^' onclick="func('^')">^</button>
+            <button  value='+' onclick="func('+')">+</button>
+        </div>
+        <div class="r6">
+            <button  value='d' class="clear" onclick="del()">del</button>
+            <button  value='a' class="clear" onclick="exp()">=</button>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
