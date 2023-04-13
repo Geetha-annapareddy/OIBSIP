@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <h1 id="header">Tasks</h1>
+  <div class="box">
+    <form class="item" id="form">
+      <input type="text" placeholder="New Task" id="new-item" autocomplete="off">
+      <button type="submit" onclick="addTask()">+</button>
+    </form>
+    <div class="status">
+      <p class="tab-link active-link" onclick="opentab('tasks')">Tasks</p>
+      <p class="tab-link" onclick="opentab('pending')">Pending</p>
+      <p class="tab-link" onclick="opentab('complete')">Completed</p>
+    </div>
+    <div class="tab-contents active-tab" id="tasks">
+      <div class="item">
+        <div class="all" id="all-list">
+
+        </div>
+      </div>
+    </div>
+    <div class="tab-contents" id="pending">
+      <div class="item">
+        <div class="pending" id="pending-list">
+
+        </div>
+      </div>
+    </div>
+    <div class="tab-contents" id="complete">
+      <div class="item">
+        <div class="complete" id="complete-list">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
